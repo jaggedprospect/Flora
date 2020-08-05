@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTintMode="add">
+
+    <PreferenceCategory app:title="General">
+
+        <Preference
+            android:key="logout_preference"
+            android:summary="Disconnect your Google Account from Flora"
+            android:title="@string/logout_preference_text" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
