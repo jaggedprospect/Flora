@@ -16,16 +16,11 @@ Flora is an Android application that allows a user to select the optimal flower 
 
 ## Installation
 
-Download the contents of the Flora repository folder.
+Since only the source code is provided, you will need to create a New Project in Android Studio and import the files from the **Flora** folder in the repository.
 
-Open Android Studio and create a New Project.
+You will also need to connect a Firebase project to handle Google logins and to host a Firestore database.
 
-Import the necessary JAVA files, XML files and assets into the New Project.
-
-Select an Android Virtual Device (AVD) or use an external device via USB Debugging. 
-
-Build the project and run.
-
+This distribution is meant to demonstrate an early protoype for the final application. As a result, a moderate amount of modification will be required to get the app running. I hope to provide a better distribution in the near future.
 
 
 ## Usage
